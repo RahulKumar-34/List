@@ -1,0 +1,148 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.menu-bar
+{
+    background: rgb(49, 96, 141);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:black;
+
+}
+
+.menu-bar ul li
+{
+width: 120px;
+margin: 10px;
+padding: 15px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover
+{
+    background:rgb(47, 78, 90);
+    border-radius: 7px;
+}
+.menu-bar .fa
+{
+    margin-right:7px ;
+}
+
+.sub-menu-1
+{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: black;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom:1px dotted blue;
+    background: transparent;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/*-----project css-------*/
+
+#projcet .project{
+    flex-direction: column;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+#project .project-header h1{
+    margin-bottom: 50px;
+
+}
+
+#project .all-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#project .project-item{
+    margin-left: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius:10px;
+} 
+
+#project .project-info{
+    padding: 30px;
+    flex-basis: 50px;
+    background-color: blue;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+    color: aliceblue;
+}
+
+#project .project-info h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+#project .project-info h2 {
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top:10px;
+
+
+}
+
+#project .project-info p{
+    color: white;
+
+}

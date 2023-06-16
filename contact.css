@@ -1,0 +1,113 @@
+
+
+#footer{
+    margin-top:0 ;
+    background-image:linear-gradient(60deg,#29323c 100%);
+
+}
+
+#footer .footer{
+    margin: 0;
+    flex-direction: column;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+#footer h2{
+
+    text-align:center ;
+    color: #29323c;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .1rem;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.brand h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(8, 9, 9);
+}
+
+.brand h1 span{
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+}
+
+
+
+
+
+
+#projcet .project{
+    flex-direction: column;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+#project .project-header h1{
+    margin-bottom: 50px;
+
+}
+
+#project .all-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#project .project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius:10px;
+} 
+
+#project .project-info{
+    padding: 9px;
+    flex-basis: 40px;
+    background-color:white;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+    color: aliceblue;
+}
+
+#project .project-info h1{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 0px;
+
+}
+
+#project .project-info h2 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-top:0px;
+
+
+}
+
+#project .project-info p{
+    color: white;
+
+}
+
+
+
+
